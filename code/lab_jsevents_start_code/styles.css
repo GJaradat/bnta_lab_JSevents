@@ -1,0 +1,26 @@
+*{
+    background-color: #fcfcb0;
+    font-family: cursive;
+}
+
+#header-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+}
+
+#datediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
