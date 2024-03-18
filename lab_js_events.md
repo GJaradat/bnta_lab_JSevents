@@ -6,8 +6,8 @@ Open `lab_jsevents_start_code` folder in VSCode. Open `index.html` in your brows
 
 ## MVP
 - Write some Javascript that will allow your form to take an input and add it to the to-do list below. Some things you might need to do:
-    - grab the `Enter` button in your `<form>` and add an event listener to it
-    - when the event occurs (`'click'`), the listener should fire a method that grabs the input, creates an `<li>` element and attaches it to the existing `<ul>`
+    - grab the `<form>` and add an event listener to it
+    - when the event occurs (`'submit'`), the listener should fire a method that grabs the input, creates an `<li>` element and attaches it to the existing `<ul>`
     - note that every `<li>` elements needs an accompanying `delete` button
     
 - Write some Javascript that allows a user to delete an item from the list (i.e. make the `Delete` button work as it should).
